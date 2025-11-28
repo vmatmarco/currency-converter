@@ -1,0 +1,52 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Block: app */
+/* .app - Estilos del contenedor principal */
+/* .app__header - Estilos del header */
+/* .app__title - Estilos heredados de h1 en index.css */
+
+.app__subtitle {
+    color: var(--secondary-font-color);
+}
+
+/* Block: converter */
+/* .converter - Estilos del convertidor */
+.converter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+/* .converter__currency - Estilos comunes para las secciones de moneda */
+.converter__currency {
+    text-align: start;
+    /* border: 1px solid var(--secondary-font-color); */
+}
+/* .converter__currency--from - Modificador para moneda origen */
+/* .converter__currency--to - Modificador para moneda destino */
+/* .converter__label - Estilos para las etiquetas */
+.converter__label {
+    color: var(--secondary-font-color);
+    font-weight: 300;
+    display: block;
+}
+/* .converter__select - Estilos para los selectores */
+.converter__select {
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+    border-bottom: 1px solid var(--secondary-font-color);
+}
+/* .converter__option - Estilos para las opciones */
+
+.converter__input {
+    width: 100%;
+    font-size: 5rem;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+}
